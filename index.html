@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главное дз. Верстка</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="page">
+    <section class="first_container">
+        <nav class="main_menu">
+            <a href="https://sky.pro"> <img src="./images/logo.svg" alt="SkyPro logo"></a>
+            <!--Переименовал имя файла + добавил ссылку на скайпро -->
+            <ul class="main_menu-details">
+                <li>
+                    <a class="link" href="#">Все курсы</a>
+                </li>
+            </ul>
+            <ul class="main_menu-details">
+                <li>
+                    <a class="link" href="#">Вебинары</a>
+                </li>
+            </ul>
+            <ul class="main_menu-details">
+                <li>
+                    <a class="link" href="#">О нас</a>
+                </li>
+            </ul>
+            <button>Войти</button>
+        </nav>
+        <p class="first_container-subtitle">Онлайн-университет рентабельного образования</p>
+        <div class="first_container-title">
+            <h1>Освойте новую профессию и улучшите качество жизни</h1>
+            <img src="./images/sale_sticker_1.png" aria-hidden="true">
+            <!-- сделал скрытым для читалок (декоративное изображение) + переименовал файл-->
+        </div>
+        <div class="first_container-prof">
+            <div class="python">
+                <p class="proffession">Профессия <span class="learn_time">за 7 месяцев</span> </p>
+                <p class="prof_title">Python разработчик</p>
+                <a class="python_prof" href="#">программирование</a>
+            </div>
+            <div class="analyst">
+                <p class="proffession">Профессия <span class="learn_time">за 12 месяцев</span> </p>
+                <p class="prof_title">Аналитик данных</p>
+                <a class="analyst_prof" href="#">аналитика</a>
+            </div>
+            <div class="engineer">
+                <p class="proffession">Профессия <span class="learn_time">за 9 месяцев</span> </p>
+                <p class="prof_title">Инженер по тестированию</p>
+                <a class="engineer_prof" href="#">программирование</a>
+            </div>
+        </div>
+        <div class="all_courses">
+            <a href="#">Все 22 курса</a>
+        </div>
+    </section>
+    <section class="second_container">
+        <div class="second_container-invest">
+            <div class="second_container-text">
+                <p class="second_container-title">Инвестируйте в свое образование <br>
+                    <span class="second_container-title-dark"> и получите новую профессию за 10 недель</span>
+                </p>
+                <p class="second_container-subtitle">Берем риски по вашему обучению и трудоустройству. Оплачиваете учебу
+                    только после трудоустройства с зарплатой выше 50 000 ₽.</p>
+            </div>
+            <img src="./images/credit_sticker_1.png" aria-hidden="true">
+            <!-- сделал скрытым для читалок (декоративное изображение) + переименовал файл -->
+        </div>
+        <div class="about_isa">
+            <a href="#">Подробнее об ISA</a>
+        </div>
+    </section>
+    <section class="third_container">
+        <h2>Ближайшие вебинары</h2>
+        <div class="third_container-block1">
+            <!-- задал максимальную ширину, чтобы не растягивались по всему экрану -->
+            <div class="block1-info">
+                <p class="block1-date"><span class="block1-date-number">25</span><span
+                        class="block1-month">сентября,<br /> понедельник</span></p>
+                <p class="block1-profession">инженер по тестированию</p>
+                <!--заменил h6 на p, не понял, откуда он тут взялся-->
+            </div>
+            <div class="block1-details">
+                <h3 class="block1-title">День открытых дверей. <br> Старт в IT — какая профессия вам подойдет и с чего
+                    начать</h3>
+                <p class="block1-time">15:00 — 17:00 по МСК</p>
+                <div class="block1-about">
+                    <p class="block1-speakers">Спикеры: Алексей Никушин, Алексей Никушин, Алексей Никушин, Алексей
+                        Никушин, Алексей Никушин,</p>
+                    <div class="block1-more">
+                        <a href="#">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third_container-block2">
+            <!-- задал максимальную ширину, чтобы не растягивались по всему экрану -->
+            <div class="block2-info">
+                <p class="block2-date"><span class="block2-date-number">25</span><span
+                        class="block2-month">сентября,<br /> понедельник</span></p>
+                <h3 class="block2-title">День открытых дверей. <br> Старт в IT — какая профессия вам подойдет и с чего
+                    начать</h3>
+                <p class="block2-time">15:00 — 17:00 по МСК</p>
+                <div class="block2-about">
+                    <p class="block2-speakers">Спикеры: Алексей Никушин, Алексей Никушин, <br> Алексей Никушин, Алексей
+                        Никушин, Алексей Никушин,</p>
+                    <div class="block2-more">
+                        <a href="#">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third_container-info">
+            <div class="all_veb">
+                <a href="#">Все вебинары</a>
+            </div>
+            <a href="#"><img src="./images/telegram.svg" alt="Telegram logo"></a>
+            <!--сделал кнопку телеги кликабельной -->
+            <p>Получать анонсы в телеграм</p>
+        </div>
+        <div class="third_container-skills">
+            <div class="skills-title">
+                <h2>Освойте конкретные навыки <br> и ускорьте карьерный рост</h2>
+                <img src="./images/learn_sticker_1.png" aria-hidden="true">
+                <!-- сделал скрытым для читалок (декоративное изображение) + переименовал файл -->
+            </div>
+            <div class="skills-details">
+                <div class="skills-python">
+                    <p class="proffession">Навык <span class="learn_time">за 2,5 месяца</span> </p>
+                    <p class="skill_title">Python <br> для анализа данных</p>
+                    <a class="python-details" href="#">аналитика</a>
+                </div>
+                <div class="skills-sql">
+                    <p class="proffession">Навык <span class="learn_time">за 2 месяца</span> </p>
+                    <p class="skill_title">SQL <br> для анализа данных</p>
+                    <a class="sql-details" href="#">аналитика</a>
+                </div>
+                <div class="skills-finance">
+                    <p class="proffession">Профессия <span class="learn_time">за 1 месяц</span> </p>
+                    <p class="skill_title">Финансовая грамотность</p>
+                    <a class="finance-details" href="#">аналитика</a>
+                </div>
+            </div>
+            <div class="skills-courses">
+                <a href="#">Все 22 курса</a>
+            </div>
+        </div>
+    </section>
+    <section class="forth_continer">
+        <div class="forth_continer-block">
+            <div class="career-guidance">
+                <p class="forth_continer-text-paragraph1 career-paragraph1"> Профориентация </p>
+                <p class="forth_continer-text-paragraph2 career-paragraph2"> Помогаем выбрать профессию, в которой <br>
+                    вы
+                    добьетесь наилучших
+                    результатов.</p>
+                <img class="forth_continer-img2" src="./images/photo-2.png" alt="Career guidance">
+                <!--Переименовал имя файла -->
+            </div>
+            <div class="employment">
+                <img class="forth_continer-img employment-img" src="./images/photo-1.png" alt="Employment">
+                <!--Переименовал имя файла -->
+                <p class="forth_continer-text-paragraph1 employment-paragraph1">Трудоустройство</p>
+                <p class="forth_continer-text-paragraph2 employment-paragraph2">Помогаем составить резюме, которое
+                    заметят. Наполняем
+                    портфолио реальными проектами.</p>
+            </div>
+        </div>
+        <div class="forth_continer-block forth_block">
+            <div class="market-analytics">
+                <p class="forth_continer-text-paragraph1 market-paragraph1"> Аналитика рынка </p>
+                <p class="forth_continer-text-paragraph2 market-paragraph2">Создаем курсы <br> по профессиям, которые
+                    <br> будут востребованы <br> через годы.
+                </p>
+                <img class="forth_continer-img4" src="./images/photo-4.png" alt="Market analytics">
+                <!--Переименовал имя файла -->
+            </div>
+            <div class="educational-materials">
+                <img class="forth_continer-img" src="./images/photo-3.png" alt="Education materials">
+                <!--Переименовал имя файла -->
+                <p class="forth_continer-text-paragraph1 educational-paragraph1">Учебные материалы и сопровождение </p>
+                <p class="forth_continer-text-paragraph2 educational-paragraph2">Постоянно улучшаем <br>методики
+                    обучения. <br>Отвечаем на любой вопрос <br>в течение 15 минут, <br>а домашки проверяем <br>за сутки.
+                </p>
+            </div>
+        </div>
+        <div class="student-loan">
+            <div class="student-loan-text">
+                <p class="forth_continer-text-paragraph1 loan-paragraph1">Образовательный кредит</p>
+                <p class="forth_continer-text-paragraph2 loan-paragraph2">Начинаете платить <br>за обучение, после
+                    <br>того как устраиваетесь <br>на новую работу.
+                </p>
+            </div>
+            <img class="forth_continer-img" src="./images/photo-5.png" alt="Student loan">
+            <!--Переименовал имя файла -->
+        </div>
+    </section>
+</body>
+
+</html>
